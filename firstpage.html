@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap">
+    <link rel="stylesheet" href="firstpage.css"> <!-- Link to external stylesheet -->
+</head>
+<body>
+    <div id="container">
+        <div id="image-container"></div> <!-- Container for displaying images -->
+        <div id="text-container">
+            <div id="question">I have something for you. Do you want to see ??!!</div> <!-- Question -->
+            <div id="options">
+                <button id="yes-button" onclick="selectOption('yes')" onclick="playAudio()">Yes</button> <!-- Yes button -->
+                <button id="no-button" onclick="selectOption('no')">No</button> <!-- No button -->
+            </div>
+        </div>
+        <audio id="myAudio" src="u_ii_ai_ou_iii_ai-[AudioTrimmer.com].mp3"></audio>
+        <div id="link"><a href="the_day.html">Go to Page 2</a></div>
+    </div>
+
+    <script src="firstpage.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
